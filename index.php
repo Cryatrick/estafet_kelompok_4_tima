@@ -20,16 +20,16 @@ if(isset($_POST['submit'])) {
 <body class="container mt-4">
 
 
-<h2>Tambah Mahasiswa</h2>
+
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2>Daftar Mahasiswa</h2>
+        
         <!-- Tombol untuk menuju ke halaman add.php -->
-        <a href="add.php" class="btn btn-primary">+ Tambah Mahasiswa</a>
+       
     </div>
 
 <form method="POST">
-    <input type="text" name="nama" class="form-control mb-2" placeholder="Nama" required>
+   
     <input type="text" name="npm" class="form-control mb-2" placeholder="NPM" required>
 
     <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
